@@ -159,7 +159,7 @@ const Hero = () => {
                             </div>
 
                             {/* Floating Cards */}
-                            <div className="absolute -left-4 top-1/4 bg-white rounded-xl shadow-xl p-4 animate-float">
+                            <div className="absolute -left-4 top-1/4 bg-white rounded-xl shadow-xl p-4 animate-float z-20">
                                 <div className="flex items-center gap-3">
                                     <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
                                         <svg className="w-5 h-5 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -173,7 +173,7 @@ const Hero = () => {
                                 </div>
                             </div>
 
-                            <div className="absolute -right-4 bottom-1/4 bg-white rounded-xl shadow-xl p-4 animate-float" style={{ animationDelay: '1s' }}>
+                            <div className="absolute -right-4 bottom-1/4 bg-white rounded-xl shadow-xl p-4 animate-float z-20" style={{ animationDelay: '1s' }}>
                                 <div className="flex items-center gap-3">
                                     <div className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center">
                                         <svg className="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
